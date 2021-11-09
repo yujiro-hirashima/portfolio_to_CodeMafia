@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding:0;
+  box-size: border-box;
+  background-color: #212121;
+  color: #ddd;
+}
+
+h1{
+  position:absolute;
+  top:12vw;
+  left:40px;
+  width:50vw;
+  font-size:5.5vw;
+  color: #212121;
+  background: none;
+}
+
+.thumbnail{
+  position: relative;
+  width: 100vw;
+  height: 30vw;
+  overflow: hidden;
+}
+@media screen and (max-width: 500px){
+  .thumbnail{
+    height: 50vw;
+  }
+}
+
+.thumbnail img{
+  width: 100%;
+  height: 70vw;
+}
+
+.content{
+  padding: 8vw;
+}
+.content div{
+  margin: auto;
+  font-size:1.5rem;
+  text-align: center;
+}
+.content div a:hover{
+  background: #ddd;
+  color:#212121;
+  
+}
+
+.container{
+  display: flex;
+  padding: 5vw 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item{
+  margin-top: 30px;
+  width: 200px;
+}
+
+.img img{
+  height:200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 450px){
+  .item{
+    width: 160px;
+  }
+  .img img{
+    height: 160px;
+    width:  160px;
+  }
+}
+
+footer{
+  height: 200px;
+  background: #111;
+  position: relative;
+}
+footer p{
+  background: #111;
+  text-align: center;
+  font-size : 1.5rem;
+  padding-top:50px;
+}
+footer p a{
+  background: #111;
+  text-decoration:none;
+}
+footer p a:hover{
+  background: #212121;
+}
+
+h3{
+  background: #111;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1rem;
+  font-weight: normal;  
+}
